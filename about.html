@@ -2,7 +2,7 @@
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>About • Queensway Interlock Maintenance</title>
-<meta name="description" content="Interlock cleaning, sanding, sealing, and minor repairs across York Region.">
+<meta name="description" content="About Queensway Interlock Maintenance — local, detail-driven interlock care you can trust.">
 <link rel="icon" href="assets/images/A_logo_for_Queensway_Interlock_Maintenance_is_depi.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
@@ -19,48 +19,116 @@ header{position:sticky;top:0;background:#fff;border-bottom:1px solid #eee;z-inde
 .nav a.active{color:var(--green);font-weight:800}
 .btn{display:inline-block;background:var(--green);color:#fff;padding:12px 16px;border-radius:10px;font-weight:600}
 .btn.alt{background:var(--gold);color:#1c1917}
-.hero{background:linear-gradient(180deg,#fff,#f7f6f2)}
-.section{padding:36px 0}
-.section.alt{background:var(--bg)}
+.hero{background:linear-gradient(180deg,#f7f6f2,#fff)}
+.hero .wrap{display:grid;grid-template-columns:1.1fr 1fr;gap:22px;padding:40px 0}
+.kicker{display:inline-block;background:#fff;border:1px solid #e5e7eb;border-radius:999px;padding:8px 12px;font-size:14px;margin-bottom:10px}
 h1{font-size:clamp(28px,4vw,44px);line-height:1.1;margin:8px 0}
+.lead{color:#334155;margin:0 0 14px}
+.badges{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0 0}
+.badge{background:#fff;border:1px solid #e5e7eb;border-radius:999px;padding:8px 12px;font-size:14px}
+.section{padding:36px 0} .section.alt{background:var(--bg)}
 h2{margin:0 0 8px} .sub{color:var(--muted);margin:0 0 16px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
-.card{border:1px solid #ececec;border-radius:14px;background:#fff;padding:14px}
-.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
-.gallery img{width:100%;height:220px;object-fit:cover;border-radius:10px;border:1px solid #e5e7eb}
-.service-card img{width:100%;height:150px;object-fit:cover;border-radius:10px;border:1px solid #e5e7eb;margin-bottom:8px}
-.badge{background:#fff;border:1px solid #e5e7eb;border-radius:999px;padding:8px 12px;font-size:14px;display:inline-block;margin-right:8px}
-.process{counter-reset:step} .step{display:flex;gap:12px;align-items:flex-start;background:#fff;border:1px dashed #e5e7eb;border-radius:12px;padding:12px;margin:10px 0}
-.step::before{counter-increment:step;content:counter(step);display:inline-grid;place-items:center;background:var(--gold);color:#1c1917;width:26px;height:26px;border-radius:999px;font-weight:800;margin-top:2px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.card{border:1px solid #ececec;border-radius:14px;background:#fff;padding:16px}
+.list{margin:0;padding-left:18px} .list li{margin:6px 0}
+.quote{border-left:4px solid var(--gold);padding:8px 12px;background:#fffbe8;border-radius:8px}
 footer{background:#0f172a;color:#e2e8f0;padding:28px 0;margin-top:30px}
-@media (max-width:900px){.hero .container{grid-template-columns:1fr}}
-</style></head><body><header><div class="container nav">
-<div class="brand">
-<img src="assets/images/A_logo_for_Queensway_Interlock_Maintenance_is_depi.png" alt="Queensway logo">
-<div><b>Queensway Interlock Maintenance</b><br><small style="color:#64748b">Clean • Re-Sand • Seal • Minor Repairs</small></div>
-</div>
-<nav style="display:flex;gap:14px;flex-wrap:wrap">
-  <a  href="index.html">Home</a>
-  <a class="active" href="about.html">About</a>
-  <a  href="services.html">Services</a>
-  <a  href="portfolio.html">Portfolio</a>
-  <a  href="quote.html">Quote</a>
-</nav>
-<div style="display:flex;gap:10px">
-  <a class="btn alt" href="quote.html">Free Quote</a>
-  <a class="btn" href="tel:+1-000-000-0000">Call Now</a>
-</div>
-</div></header>
-<section class="section"><div class="container">
-  <h1>About Us</h1>
-  <p class="sub">We’re a local team focused on sharp results, clear communication, and honest work.</p>
-  <div class="grid">
-    <div class="card"><h3>Our Focus</h3><p>Interlock cleaning, sanding, sealing, and minor repairs—done with care and attention to detail.</p></div>
-    <div class="card"><h3>How We Work</h3><p>Clear quotes, tidy job sites, and a walkthrough at the end to ensure you’re happy with the result.</p></div>
-    <div class="card"><h3>What Matters</h3><p>Protecting your investment and boosting curb appeal without upsells or surprises.</p></div>
+@media (max-width:900px){.hero .wrap{grid-template-columns:1fr}}
+</style></head><body>
+
+<header>
+  <div class="container nav">
+    <div class="brand">
+      <img src="assets/images/A_logo_for_Queensway_Interlock_Maintenance_is_depi.png" alt="Queensway logo">
+      <div><b>Queensway Interlock Maintenance</b><br><small style="color:#64748b">Clean • Re-Sand • Seal • Minor Repairs</small></div>
+    </div>
+    <nav style="display:flex;gap:14px;flex-wrap:wrap">
+      <a href="index.html">Home</a>
+      <a class="active" href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="quote.html">Quote</a>
+    </nav>
+    <div style="display:flex;gap:10px">
+      <a class="btn alt" href="quote.html">Free Quote</a>
+      <a class="btn" href="tel:+1-000-000-0000">Call Now</a>
+    </div>
   </div>
-</div></section>
-<footer><div class="container" style="display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap">
-<span>&copy; 2025 Queensway Interlock Maintenance</span>
-<span>Green & Gold Standard</span>
-</div></footer></body></html>
+</header>
+
+<section class="hero">
+  <div class="container wrap">
+    <div>
+      <span class="kicker">Local • Honest • Detail-Driven</span>
+      <h1>Built on care. Focused on results.</h1>
+      <p class="lead">We’re a small, accountable team that treats your interlock like our own—clean lines, tight joints, and a finish that lasts.</p>
+      <div class="badges">
+        <span class="badge">Clear, upfront quotes</span>
+        <span class="badge">Neat & respectful job sites</span>
+        <span class="badge">Homeowner-approved results</span>
+      </div>
+    </div>
+    <div class="card">
+      <h3 style="margin:0 0 8px">What we’re about</h3>
+      <ul class="list">
+        <li>Quality over speed—no cut corners.</li>
+        <li>Communication you don’t have to chase.</li>
+        <li>Practical recommendations, never pressure.</li>
+      </ul>
+      <p class="quote" style="margin-top:10px"><strong>Our aim is simple:</strong> leave every project looking sharp and feeling solid—so you’re confident inviting people up the driveway.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2>Our Values</h2>
+    <p class="sub">The principles that guide every project.</p>
+    <div class="grid">
+      <div class="card"><h3>Craftsmanship</h3><p>Crisp edges, consistent joints, and clean finishes—details that make your interlock look new again.</p></div>
+      <div class="card"><h3>Integrity</h3><p>Straightforward pricing and honest scope. If you don’t need it, we won’t recommend it.</p></div>
+      <div class="card"><h3>Respect</h3><p>We protect surrounding areas, tidy as we go, and leave your space cleaner than we found it.</p></div>
+      <div class="card"><h3>Care for Longevity</h3><p>Methods and materials chosen to hold up through seasons—salt, sun, and spills included.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="container">
+    <h2>Why Homeowners Choose Us</h2>
+    <p class="sub">Clear process, reliable results.</p>
+    <div class="grid">
+      <div class="card"><h3>Clear Process</h3><p>Walkthrough & quote → Deep clean → Re-sand → Seal & review. Simple, transparent, and thorough.</p></div>
+      <div class="card"><h3>Quality Materials</h3><p>We use proven sands and sealers tailored to your surface and goals (matte, natural, or enhanced look).</p></div>
+      <div class="card"><h3>Friendly Communication</h3><p>We keep you updated on timing, steps, and care tips—no surprises.</p></div>
+      <div class="card"><h3>Satisfaction-First</h3><p>We walk the site with you at the end to make sure you’re thrilled with the finish.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="display:grid;grid-template-columns:1.2fr 1fr;gap:16px">
+    <div class="card">
+      <h3 style="margin-top:0">Service Area</h3>
+      <p class="sub">Based in York Region—serving nearby communities.</p>
+      <p><strong>Aurora • Newmarket • East Gwillimbury • Bradford • Stouffville • Richmond Hill • Vaughan • Markham • King City</strong></p>
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">Ready for a Quote?</h3>
+      <p>Send a few photos and the square footage if you know it. We’ll reply quickly.</p>
+      <div style="display:flex;gap:10px;flex-wrap:wrap">
+        <a class="btn" href="quote.html">Get a Free Quote</a>
+        <a class="btn alt" href="services.html">See Services</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container" style="display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap">
+    <span>&copy; 2025 Queensway Interlock Maintenance</span>
+    <span>Green & Gold Standard</span>
+  </div>
+</footer>
+
+</body></html>
